@@ -34,7 +34,9 @@ public class CustomCommentGenerator implements CommentGenerator {
 
     private boolean suppressAllComments;
 
-    /** If suppressAllComments is true, this option is ignored. */
+    /**
+     * If suppressAllComments is true, this option is ignored.
+     */
     private boolean addRemarkComments;
 
     private SimpleDateFormat dateFormat;
